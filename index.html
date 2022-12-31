@@ -12,33 +12,38 @@
 </head>
 <body>
 
-    <div >
+    <div class="flex-container-0">
         <div class="sign-up-sec">
             <div id="form-div" >
                 
-                <form class="flex-container">
-                    <h1>Sign Up</h1>
-                    <label for="user">User</label>
-                    <input class="form-inputs" type="text" name="user" required>
+                <form class="flex-container-1">
+                    <h1 class="form-elems">Sign Up</h1>
+                    <!-- <label for="user">User</label> -->
+                    <input class="form-inputs form-elems" type="text" name="user" required>
 
-                    <label for="email">Email</label>
-                    <input class="form-inputs" type="text" name="email" required>
+                    <!-- <label for="email">Email</label> -->
+                    <input class="form-inputs form-elems" type="text" name="email" required>
 
-                    <label for="password">Password</label>
-                    <input class="form-inputs" type="password" name="password" required>
+                    <!-- <label for="password">Password</label> -->
+                    <input class="form-inputs form-elems" type="password" name="password" required>
 
-                    <button id="sign-up-btn">Sign Up</button>
-                    <small id="small">Or Sign up with social platforms</ssmall>
+                    <button class="form-elems" id="sign-up-btn">Sign Up</button>
+                    <small class="form-elems" id="small">Or Sign up with social platforms</ssmall>
                 </form>
             </div>
             <div id="flex-container-2">
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-google"></i>
-                <i class="fa-brands fa-linkedin-in"></i>
+
+                <div class="contraint"><button style="" class="social-btns"><i class="fa-brands fa-facebook-f"></i></button></div>
+
+                <div class="contraint"><button style="" class="social-btns"><i class="fa-brands fa-twitter"></i></button></div>
+
+                <div class="contraint"><button style="" class="social-btns"><i class="fa-brands fa-google"></i></button></div>
+
+                <div class="contraint"><button style="" class="social-btns"><i class="fa-brands fa-linkedin-in"></i></button></div>
+            
             </div>
         </div>
-        <div class="hero-img"></div>
+        <div class="hero-img"><img src="static/images/Sign Up - HERO IMG.jpg"></div>
     </div>
 
 </body>
